@@ -1,4 +1,4 @@
-# clabot-boilerplate
+# sakai-cla-robot
 
 This is a clabot boilerplate designed to be deployed on [Heroku](http://www.heroku.com/).
 
