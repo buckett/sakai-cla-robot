@@ -1,10 +1,10 @@
 {
-  "name": "clabot-boilerplate",
-  "description": "A clabot boilerplate",
-  "version": "0.0.0",
+  "name": "sakai-cla-robot",
+  "description": "A CLA Robot for the Sakai Project",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/clabot/boilerplate.git"
+    "url": "git://github.com/buckett/sakai-cla-robot.git"
   },
   "main": "src/clabot.js",
   "engines": {
