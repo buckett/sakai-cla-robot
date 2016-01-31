@@ -11,7 +11,8 @@
   },
   "main": "src/clabot.js",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.8.0",
+    "npm": ">= 3.6.0"
   },
   "dependencies": {
     "clabot": "https://github.com/buckett/clabot/tarball/master"
