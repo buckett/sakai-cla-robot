@@ -15,6 +15,6 @@
     "npm": ">= 3.6.0"
   },
   "dependencies": {
-    "clabot": "https://github.com/buckett/clabot/tarball/master"
+    "clabot": "buckett/clabot#8d4612d"
   }
 }
