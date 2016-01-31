@@ -111,6 +111,15 @@ git push heroku master
 
 Congratulations, after heroku has finished building the app clabot will answer your pull requests.
 
+
+## Notes
+
+You can't have `npm` run prepublish tasks of unpublished dependencies, because we have a fork of
+the clabot we need to generate the JavaScript from the coffee script. Todo this we have todo this
+as part of this project's build which is why it now has it's own prepublish script.
+
+https://github.com/npm/npm/issues/7040
+
 **Questions, or just wanna hang out and chat about clabot?**
 
 [Join our HipChat room](https://www.hipchat.com/gBZFBJa2w)

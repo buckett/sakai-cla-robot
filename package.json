@@ -6,11 +6,14 @@
     "type": "git",
     "url": "git://github.com/buckett/sakai-cla-robot.git"
   },
+  "scripts": {
+    "prepublish": "cd node_modules/clabot; npm install"
+  },
   "main": "src/clabot.js",
   "engines": {
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "clabot": "0.0.4"
+    "clabot": "https://github.com/buckett/clabot/tarball/master"
   }
 }
